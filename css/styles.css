@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+    min-height: 100vh;
+    background-image: url(../images/leaves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left {
+    display: inline-block;
+    width: 30%;
+    margin-right: -4px;
+    padding: 3%;
+}
+
+.right {
+    display: inline-block;
+    width: 70%;
+    padding: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+.left h2, img, h4, p {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.left img {
+    width: 60%;
+    height: 80%;
+
+}
+
+.top {
+    display: inline-block;
+    width:30%;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.next {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.last {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
